@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        LoadScore()
     }
    
 
@@ -38,9 +39,12 @@ class ViewController: UIViewController {
 
     func LoadScore()
     {
+        let defaults = UserDefaults.standard
+        score = defaults.integer(forKey: "score")
+        labelScore.text = "score: \(score)"
     }
     
-    func SaceScore()
+    func SaveScore()
     
     {
     }
