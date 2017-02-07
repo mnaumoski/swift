@@ -14,6 +14,7 @@
 		8BFBDC931E482775003349F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBDC911E482775003349F9 /* LaunchScreen.storyboard */; };
 		8BFBDC9E1E482775003349F9 /* FactoidGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBDC9D1E482775003349F9 /* FactoidGameTests.swift */; };
 		8BFBDCA91E482775003349F9 /* FactoidGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBDCA81E482775003349F9 /* FactoidGameUITests.swift */; };
+		8BFBDCB81E4973F6003349F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBDCB71E4973F6003349F9 /* iAd.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8BFBDCA41E482775003349F9 /* FactoidGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoidGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBDCA81E482775003349F9 /* FactoidGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoidGameUITests.swift; sourceTree = "<group>"; };
 		8BFBDCAA1E482775003349F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFBDCB71E4973F6003349F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFBDCB81E4973F6003349F9 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				8BFBDC9C1E482775003349F9 /* FactoidGameTests */,
 				8BFBDCA71E482775003349F9 /* FactoidGameUITests */,
 				8BFBDC861E482775003349F9 /* Products */,
+				8BFBDCB61E4973F6003349F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				8BFBDCAA1E482775003349F9 /* Info.plist */,
 			);
 			path = FactoidGameUITests;
+			sourceTree = "<group>";
+		};
+		8BFBDCB61E4973F6003349F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBDCB71E4973F6003349F9 /* iAd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FactoidGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.FactoidGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FactoidGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.FactoidGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";

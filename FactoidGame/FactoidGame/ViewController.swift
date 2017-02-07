@@ -10,16 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonA: UIButton!
+    @IBOutlet weak var buttonB: UIButton!
+    @IBOutlet weak var buttonC: UIButton!
+    @IBOutlet weak var buttonD: UIButton!
+    
+    @IBOutlet weak var labelQuestion: UILabel!
+    
+    @IBOutlet weak var labelScore: UILabel!
+    
+    @IBOutlet weak var labelFeedback: UILabel!
+    
+    
+    @IBOutlet weak var buttonNext: UIButton!
+    var score :Int! = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+   
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    func LoadScore()
+    {
+    }
+    
+    func SaceScore()
+    
+    {
+    }
 }
 
