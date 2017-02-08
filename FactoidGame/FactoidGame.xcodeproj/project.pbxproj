@@ -15,6 +15,7 @@
 		8BFBDC9E1E482775003349F9 /* FactoidGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBDC9D1E482775003349F9 /* FactoidGameTests.swift */; };
 		8BFBDCA91E482775003349F9 /* FactoidGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBDCA81E482775003349F9 /* FactoidGameUITests.swift */; };
 		8BFBDCB81E4973F6003349F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBDCB71E4973F6003349F9 /* iAd.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8BFBDCBA1E4B97D0003349F9 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBDCB91E4B97D0003349F9 /* content.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8BFBDCA81E482775003349F9 /* FactoidGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoidGameUITests.swift; sourceTree = "<group>"; };
 		8BFBDCAA1E482775003349F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BFBDCB71E4973F6003349F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		8BFBDCB91E4B97D0003349F9 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8BFBDC871E482775003349F9 /* FactoidGame */ = {
 			isa = PBXGroup;
 			children = (
+				8BFBDCB91E4B97D0003349F9 /* content.json */,
 				8BFBDC881E482775003349F9 /* AppDelegate.swift */,
 				8BFBDC8A1E482775003349F9 /* ViewController.swift */,
 				8BFBDC8C1E482775003349F9 /* Main.storyboard */,
@@ -247,6 +250,7 @@
 				8BFBDC931E482775003349F9 /* LaunchScreen.storyboard in Resources */,
 				8BFBDC901E482775003349F9 /* Assets.xcassets in Resources */,
 				8BFBDC8E1E482775003349F9 /* Main.storyboard in Resources */,
+				8BFBDCBA1E4B97D0003349F9 /* content.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
